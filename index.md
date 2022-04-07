@@ -30,5 +30,8 @@ Actual work testing stuff
 
 ---
 
+*Live italiczied phrase*
+
+**Live bold phrase**
 
 
