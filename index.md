@@ -4,3 +4,31 @@
 
 [Link](https://smhitle.github.io/cse15l-lab-reports/)
 
+Actual work testing stuff
+
+*Italic*
+
+**Bold**
+
+# Heading
+
+## Heading 2
+
+[Link](http://a.com)
+
+![Image](http://url/a.png)
+
+> Blockquote
+> jfijaewogiagiso
+> fkkasmdf
+
+* List
+* not list
+
+1. One
+2. Three
+
+---
+
+
+
