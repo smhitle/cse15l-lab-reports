@@ -34,4 +34,5 @@ Actual work testing stuff
 
 **Live bold phrase**
 
+[Link to Lab Report 1](https://smhitle.github.io/cse15l-lab-reports/lab-report-1-week-2)
 
