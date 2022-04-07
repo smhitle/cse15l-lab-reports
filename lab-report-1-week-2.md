@@ -2,7 +2,7 @@
 
 # Installing VSCode
 
-![VSCode Screenshot](Images/image9.png)
+![VSCode Screenshot](Images/image22.png)
 
 # Remotely Connecting
 
