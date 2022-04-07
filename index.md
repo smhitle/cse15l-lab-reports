@@ -1,7 +1,14 @@
-# Heading 1
-## Heading 2
+# Page for CSE 15L
 
-[Link to Lab Report 1](https://smhitle.github.io/cse15l-lab-reports/lab-report-1-week-2)
+> **Lab Reports**
+>
+> 1. [Lab Report 1](https://smhitle.github.io/cse15l-lab-reports/lab-report-1-week-2)
+>
+> 2. Lab Report 2
+>
+> 2. Lab Report 3
+>
+> 2. Lab Report 4
 
 ***Hello World*** Both italicized and bold 
 
