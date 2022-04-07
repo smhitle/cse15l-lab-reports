@@ -2,9 +2,10 @@
 
 ![Lab Screenshot](ss1.PNG)
 
-![Test](Lab 1 Photos\image22.png)
+![Test](Images/image22.png)
 
-[Test](lab-report-1-week-2.html)
+![Test](https://raw.githubusercontent.com/smhitle/cse15l-lab-reports/main/Lab%201%20Photos/image21.png)
+
 
 # Installing VSCode
 
