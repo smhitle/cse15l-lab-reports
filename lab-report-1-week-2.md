@@ -60,7 +60,7 @@ The first step is to make the local edit itself. The WhereAmI.java file will be 
 
 The second step is to copy it to the server, and conveniently, the SSH key we created in the last part helps a lot since no password is required. There is also the fact that we are allowed to make up several commands in one line, in which the command I will be using is 
 
-**scp WhereAmI.java cs15lsp22awq@ieng6.ucsd.edu:~/; javac WhereAmI.java; java WhereAmI** 
+`scp WhereAmI.java cs15lsp22awq@ieng6.ucsd.edu:~/; javac WhereAmI.java; java WhereAmI`
 
 Voila! The file compiled and ran successfully. 
 
