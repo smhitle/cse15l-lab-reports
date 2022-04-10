@@ -54,13 +54,15 @@ pwd - prints the working directory
 
 There are some very convenient shortcuts that could be made when trying to work remotely. This example will focus on making a local edit on a file (WhereAmI.java) and copying it to the remote server and running it.
 
-The first step is to make the local edit itself. The WhereAmI.java file will be edited with the addition of the following code, which will serve as the local edit.
+The first step is to make the local edit itself. The WhereAmI.java file will be edited with the addition of the following code on top of it's existing code, which will serve as the local edit.
 
 `System.out.println("Edit made and successfully copied to remote server an ran)`
 
 The second step is to copy it to the server, and conveniently, the SSH key we created in the last part helps a lot since no password is required. There is also the fact that we are allowed to make up several commands in one line, in which the command I will be using is 
 
 **scp WhereAmI.java cs15lsp22awq@ieng6.ucsd.edu:~/; javac WhereAmI.java; java WhereAmI** 
+
+Voila! The file compiled and ran successfully. 
 
 
 
