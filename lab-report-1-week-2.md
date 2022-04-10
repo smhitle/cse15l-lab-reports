@@ -52,15 +52,29 @@ pwd - prints the working directory
 
 # Optimizing Remote Running
 
-There are some very convenient shortcuts that could be made when trying to work remotely. This example will focus on making a local edit on a file (WhereAmI.java) and copying it to the remote server and running it.
+### There are some very convenient shortcuts that could be made when trying to work remotely. This example will focus on making a local edit on a file (WhereAmI.java) and copying it to the remote server and running it.
 
 The first step is to make the local edit itself. The WhereAmI.java file will be edited with the addition of the following code on top of it's existing code, which will serve as the local edit.
 
-`System.out.println("Edit made and successfully copied to remote server an ran)`
+`System.out.println("Edit made and successfully copied to remote server and ran")`
 
-The second step is to copy it to the server, and conveniently, the SSH key we created in the last part helps a lot since no password is required. There is also the fact that we are allowed to make up several commands in one line, in which the command I will be using is 
+![First Part](Images/localedit.PNG)
 
-`scp WhereAmI.java cs15lsp22awq@ieng6.ucsd.edu:~/; javac WhereAmI.java; java WhereAmI`
+The second step is to copy it to the server, and conveniently, the SSH key we created in the last part helps a lot since no password is required.
+
+There is also the fact that we are allowed to make up several commands in one line, in which the command I will be using is
+
+`scp WhereAmI.java cs15lsp22awq@ieng6.ucsd.edu:~/; ssh cs15lsp22awq@ieng6.ucsd.edu`
+
+and
+
+`javac WhereAmI.java; java WhereAmI`
+
+The reason the two lines are separated is because when running it all on the same line, it appears that compiling and running come after you exit the remote connection, doing it on the client instead. So in order for it to be run on the server, I decided to separate them.
+
+Now let's see it in action.
+
+![Second Part](Images/copyandrun.PNG)
 
 Voila! The file compiled and ran successfully. 
 
