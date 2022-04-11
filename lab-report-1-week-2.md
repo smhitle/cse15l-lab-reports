@@ -10,7 +10,17 @@
 
 ![Remote Connect Screenshot](Images/image21.png)
 
-### 
+### This step utilizes the terminal in VSCode to use remote access.
+
+**Note** If you don't have OpenSSH already on your computer, you should download it before doing this step. Otherwise you can't connect to the server.
+
+Using the terminal in VSCode, we can connect remotely. After looking up your specfic course account for CSE 15L, use the command ssh. Specifically
+
+`ssh cs15lsp22abc@ieng6.ucsd.edu`
+
+and as a first time you will need to type *yes* into the terminal when connecting for the first time.
+
+When this command is successfully ran, the terminal is connected to a remote computer located in The Basement. You can now run commands on that remote computer!
 
 # Trying Some Commands
 
@@ -46,9 +56,15 @@ pwd - prints the working directory
 
 ![Moving Files Screenshot](Images/image9.png)
 
-### 
+### Using the command *scp* we can copy files from our computer to a remote computer. This command will be run on the client/local computer.
 
-# Setting an SSH key
+You can make a file, whether it contains code or not, and copy it to the remote computer. The command
+
+`scp <file name> cs15lsp22abc@ieng.ucsd.edu`
+
+where abc is your username, and this will copy that file to a directory on the remote computer.
+
+# Setting up an SSH key
 
 ![Setting up SSH key](Images/part6.PNG)
 
