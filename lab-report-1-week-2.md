@@ -70,6 +70,20 @@ where abc is your username, and this will copy that file to a directory on the r
 
 ### Having to enter in a password everytime you connect remotely is kind of pain. Luckily in this step we learn how to set up ssh keys, which creates a public key and private key. These are copied copied onto the server and client respectively.
 
+To create a ssh key, we will be using the command
+
+`ssh-keygen`
+
+creating the public and private key.
+
+After this command is ran, choose a location to the save the keys to. The public and private keys will be located in there.
+
+To copy the public key to the server, make a new directory in the remote computer
+
+`mkdir .ssh`
+
+You should now logout and copy the key using the scp command.
+
 Once the public key is copied into the directory *.ssh*, we are able to use remote access commands (ssh and scp) without having to enter in a password
 
 ![Convenience](Images/sshkey.PNG)
