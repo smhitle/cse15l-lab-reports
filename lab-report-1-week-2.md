@@ -46,9 +46,19 @@ pwd - prints the working directory
 
 ![Moving Files Screenshot](Images/image9.png)
 
+### 
+
 # Setting an SSH key
 
 ![Setting up SSH key](Images/part6.PNG)
+
+### Having to enter in a password everytime you connect remotely is kind of pain. Luckily in this step we learn how to set up ssh keys, which creates a public key and private key. These are copied copied onto the server and client respectively.
+
+Once the public key is copied into the directory *.ssh*, we are able to use remote access commands (ssh and scp) without having to enter in a password
+
+![Convenience](Images/sshkey.PNG)
+
+Now this is sick and convenient!
 
 # Optimizing Remote Running
 
