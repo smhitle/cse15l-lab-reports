@@ -4,7 +4,7 @@
 >
 > 1. [Lab Report 1](https://smhitle.github.io/cse15l-lab-reports/lab-report-1-week-2)
 >
-> 2. Lab Report 2
+> 2. [Lab Report 2](https://smhitle.github.io/cse15l-lab-reports/lab-report-2-week-4)
 >
 > 2. Lab Report 3
 >
