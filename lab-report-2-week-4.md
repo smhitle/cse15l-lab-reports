@@ -14,7 +14,7 @@ The first bug that I had encountered was having trouble with the parentheses and
 
 # Bug #2
 
-![Codediff2](images/codediff1.PNG)
+![Codediff2](Images/codediff1.PNG)
 * During this process, a lot of infinite loops were encountered 😭
 
 This next bug was related to having the "link" tags on two separate lines. For example this is the test file 
@@ -25,7 +25,7 @@ This test shows () and these are the changes I made to my code in order to fix i
 
 
 # Bug #3
-![Codediff3](images/codediff3.PNG)
+![Codediff3](Images/codediff3.PNG)
 
 The last bug I encountered was having spaces in between the link tags. There was also another issue with spaces, where there would be spaces in between links, but fortunately this was solved in the last code change.
 
