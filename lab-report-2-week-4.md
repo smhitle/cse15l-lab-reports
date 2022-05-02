@@ -31,7 +31,7 @@ The important thing to note in this test file is the separation of `[Link2]` and
 
 ![Fail2](Images/fail2.PNG)
 
-The second link is outputted, even though it should not be considered a valid link due to the separate between the tags. To fix this, we have to check line by line for the brackets and parentheses. We can do this via splitting each line of the file into an array and do the check.
+The second link is outputted, even though it should not be considered a valid link due to the separation between the tags, and now there is an invalid link among a valid link. To fix this, we have to check line by line for the brackets and parentheses. We can do this via splitting each line of the file into an array and do the check.
 
 
 # Bug #3
