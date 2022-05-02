@@ -6,7 +6,7 @@
 
 # Bug #1 
 
-![Codediff1]()
+![Codediff1](images/codediff1.PNG)
 
 The first bug that I had encountered was having trouble with the parentheses and brackets.
 
