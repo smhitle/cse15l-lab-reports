@@ -47,7 +47,7 @@ Test file that caused the bug :
 Screenshot of output
 ![Fail3](Images/fail3.PNG)
 
-This test contains spaces in each line, either in the brackets and parentheses themselves or the line in general. The failing output resulted in the addition of a blank space.
+This test contains spaces in each line, what would deem the link to be invalid is spaces between the brackets and parentheses or in themselves. The failing output resulted in the addition of a blank space.
 
 Spaces inbetween either the brackets or parentheses should not be a valid link. If we did not take this into account, the results of the fail output of the test file is what would happen. Among the links collected when using the program, there would be multiple invalid links among valid links.
 
