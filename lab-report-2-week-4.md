@@ -10,7 +10,7 @@
 
 The first bug that I had encountered was having trouble with was checking the parentheses and brackets. An example of a test case :
 
-[TestFile1](https://smhitle.github.io/cse15l-lab-reports/Files/file2.md)
+[TestFile1](https://github.com/smhitle/markdown-parser/blob/main/file2.md?plain=1)
 
 As we can see there are multiple valid links among a series of separated brackets and parentheses.
 
@@ -25,7 +25,7 @@ If we do not check and correctly take into account that there will be brackets a
 
 This next bug was related to having the "link" tags on two separate lines. For example this is the test file 
 
-[TestFile2]()
+[TestFile2](https://github.com/smhitle/markdown-parser/blob/main/file3.md?plain=1)
 
 The important thing to note in this test file is the separation of `[Link2]` and `(chickens.com)`. 
 
