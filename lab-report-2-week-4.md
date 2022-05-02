@@ -39,7 +39,7 @@ The second link is outputted, even though it should not be considered a valid li
 
 The last bug I encountered was having spaces in between the link tags. There was also another issue with spaces, where there would be spaces in between links, but fortunately this was solved in the last code change.
 
-[TestFile3]()
+[TestFile3](https://github.com/smhitle/markdown-parser/blob/main/file4.md?plain=1)
 
 The failing output resulted in the addition of a blank space.
 
