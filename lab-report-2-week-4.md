@@ -35,7 +35,7 @@ The second link is outputted, even though it should not be considered a valid li
 
 
 # Bug #3
-![Codediff3](Images/codediff3.PNG)
+![Codediff3](Images/codedifff3.PNG)
 
 The last bug I encountered was having spaces in between the link tags. There was also another issue with spaces, where there would be spaces in between links, but fortunately this was solved in the last code change.
 
