@@ -12,7 +12,7 @@ The first bug that I had encountered was having trouble with was checking the pa
 
 [TestFile1](https://github.com/smhitle/markdown-parser/blob/main/file2.md?plain=1)
 
-As we can see there are multiple valid links among a series of separated brackets and parentheses.
+As we can see there are multiple valid links among a series of separated brackets and parentheses. However the last link is invalid and produces the following fail output.
 
 ![Fail1](Images/fail1.PNG)
 
@@ -27,7 +27,7 @@ This next bug was related to having the "link" tags on two separate lines. For e
 
 [TestFile2](https://github.com/smhitle/markdown-parser/blob/main/file3.md?plain=1)
 
-The important thing to note in this test file is the separation of `[Link2]` and `(chickens.com)`. 
+The important thing to note in this test file is the separation of `[Link2]` and `(chickens.com)`. This test produces the following output
 
 ![Fail2](Images/fail2.PNG)
 
@@ -41,7 +41,7 @@ The last bug I encountered was having spaces in between the link tags. There was
 
 [TestFile3](https://github.com/smhitle/markdown-parser/blob/main/file4.md?plain=1)
 
-The failing output resulted in the addition of a blank space.
+This test contains spaces in each line, either in the brackets and parentheses themselves or the line in general. The failing output resulted in the addition of a blank space.
 
 ![Fail3](Images/fail3.PNG)
 
