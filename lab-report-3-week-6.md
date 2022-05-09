@@ -17,3 +17,12 @@ The next to do was copy a file using this new method. The command that I used to
 ![CopiedFile](Images/copiedfile.PNG)
 
 ## Setup Github Access from ieng6 
+
+This is where the public key is stored (on GitHub)
+
+![Public](Images/publickey.PNG)
+
+This is where the private key is stored (local)
+
+![Private](Images/privatekey.PNG)
+
