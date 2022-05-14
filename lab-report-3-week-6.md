@@ -26,3 +26,15 @@ This is where the private key is stored (local)
 
 ![Private](Images/privatekey.PNG)
 
+In order to test these keys, I logged onto the remote server and tried to commit and push a change, a simple addition of a comment line. In order to do this I cloned the repository onto the server and used my ssh link with the command `git remote set-url origin <url>` to commit and push.
+
+![RemoteCommitPush](Images/remotepush.PNG)
+
+The resulting commit can be seen here :
+
+[Result](https://github.com/smhitle/markdown-parser/commit/8eb7d5d15ed1bab612c456dd0b0988fe4c1340df)
+
+## Copy whold directories with `scp -r`
+
+
+
