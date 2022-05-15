@@ -34,7 +34,24 @@ The resulting commit can be seen here :
 
 [Result](https://github.com/smhitle/markdown-parser/commit/8eb7d5d15ed1bab612c456dd0b0988fe4c1340df)
 
-## Copy whold directories with `scp -r`
+## Copy whole directories with `scp -r`
 
+We can copy whole directories with `scp -r` and in this example I will be copying my entire MarkdownParse directory to the remote computer. In order to first copy I will be using the command
+
+`scp -r *.java *.md lib/ ucsd:markdown-parse`
+
+This initial command, selectively copies the desire files over.
+
+![CopyDir](Images/scp-r.PNG)
+
+Next is to make sure that the program is able to be compiled and ran successfully.
+
+![RunTests](Images/scpruntests.PNG)
+
+Now to make it even easier we can put all the commands onto one line for convenience, allowing us to copy the directory, log onto the remote server and compile and run our program there.
+
+This requires a very long command as seen in the picture.
+
+![OneLine](Images/scp-roneline.PNG)
 
 
